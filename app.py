@@ -5,7 +5,7 @@ import numpy as np
 
 app = Flask(__name__)
 # Load the regression model
-classifier = pickle.load(open('xgboost.pickle', 'rb'))
+classifier = pickle.load(open('rfr.pickle', 'rb'))
 
 
 
